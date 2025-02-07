@@ -17,7 +17,7 @@ while (parseInt(guess) !== targetNum) {
   }
 }
 
-alert('Selamat Tebakkan Anda benar!!');
+alert(`Selamat Tebakkan Anda benar!!, Dengan percobaan ${attempts} kali`);
 
 // warning if 1
 
