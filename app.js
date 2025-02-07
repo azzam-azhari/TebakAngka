@@ -8,6 +8,7 @@ const targetNum = Math.floor(Math.random() * maximum) + 1;
 console.log(targetNum);
 
 let guess = parseInt(prompt('Isi tebakan pertama kamu!'));
+let attempts = 1;
 
 while (parseInt(guess) !== targetNum) {
   if (guess > targetNum) {
